@@ -1,70 +1,62 @@
 {
     "workspace_one_uem": {
-        "api": {
-            "mdm": {
-                "devices": {
-                    "search": {
-                        "Devices": [
-                            {
-                                "Imei": "",
-                                "Udid": "",
-                                "LastSeen": "",
-                                "Platform": "",
-                                "UserName": "",
-                                "Ownership": "",
-                                "MacAddress": "",
-                                "AssetNumber": "",
-                                "Id": {
-                                    "Value": ""
-                                },
-                                "AcLineStatus": "",
-                                "IsSupervised": "",
-                                "SerialNumber": "SN123456789",
-                                "VirtualMemory": "",
-                                "LastEnrolledOn": "",
-                                "OperatingSystem": "",
-                                "ComplianceStatus": "",
-                                "EnrollmentStatus": "",
-                                "UserEmailAddress": "",
-                                "UserId": {
-                                    "Name": ""
-                                },
-                                "CompromisedStatus": "",
-                                "DeviceFriendlyName ": "This is my Asset",
-                                "ModelId": {
-                                    "id": {
-                                        "Value": ""
-                                    },
-                                    "Name": ""
-                                },
-                                "LastComplianceCheckOn ": "",
-                                "LastCompromisedCheckOn ": "",
-                                "PlatformId": {
-                                    "id": {
-                                        "Value": ""
-                                    },
-                                    "Name": ""
-                                },
-                                "LocationGroupId": {
-                                    "id": {
-                                        "Value": ""
-                                    },
-                                    "Name": ""
-                                },
-                                "DeviceCellularNetworkInfo": [
-                                    {
-                                        "PhoneNumber": "",
-                                        "DeviceMCC": {
-                                            "SIMMCC": "",
-                                            "CurrentMCC": ""
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
+        "Devices": [
+            {
+                "Imei": "",
+                "Udid": "",
+                "LastSeen": "",
+                "Platform": "",
+                "UserName": "",
+                "Ownership": "",
+                "MacAddress": "",
+                "AssetNumber": "",
+                "Id": {
+                    "Value": ""
+                },
+                "AcLineStatus": "",
+                "IsSupervised": "",
+                "SerialNumber": "SN123456789",
+                "VirtualMemory": "",
+                "LastEnrolledOn": "",
+                "OperatingSystem": "",
+                "ComplianceStatus": "",
+                "EnrollmentStatus": "",
+                "UserEmailAddress": "",
+                "UserId": {
+                    "Name": ""
+                },
+                "CompromisedStatus": "",
+                "DeviceFriendlyName ": "This is my Asset",
+                "ModelId": {
+                    "id": {
+                        "Value": ""
+                    },
+                    "Name": ""
+                },
+                "LastComplianceCheckOn ": "",
+                "LastCompromisedCheckOn ": "",
+                "PlatformId": {
+                    "id": {
+                        "Value": ""
+                    },
+                    "Name": ""
+                },
+                "LocationGroupId": {
+                    "id": {
+                        "Value": ""
+                    },
+                    "Name": ""
+                },
+                "DeviceCellularNetworkInfo": [
+                    {
+                        "PhoneNumber": "",
+                        "DeviceMCC": {
+                            "SIMMCC": "",
+                            "CurrentMCC": ""
+                        }
                     }
-                }
+                ]
             }
-        }
+        ]
     }
 }

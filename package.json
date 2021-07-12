@@ -4,7 +4,7 @@
   "description": "Fake SaaS JSON responses",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "json:server": "json-server --watch db.json --routes routes.json"
   },
   "author": "",
   "license": "ISC",
