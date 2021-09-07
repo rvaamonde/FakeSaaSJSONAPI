@@ -18,8 +18,9 @@ router.render = (req, res) => {
 }
 
 // Run server on indicated port.
-server.listen(3000, () => {
+server.listen(port = 3000, () => {
     console.log('JSON Server is running')
+    console.log('http://localhost:' + port)
 })
 
 // Generate data dynamically.
